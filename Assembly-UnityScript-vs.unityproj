@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{CD1155CA-40DE-C7E3-E396-01E4C0B77F63}</ProjectGuid>
+	<ProjectGuid>{0BBDD02D-33B1-1337-DA4F-329B810C9D64}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,12 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Character.js" />
+     <Compile Include="Assets\Scripts\Bullet.js" />
      <Compile Include="Assets\Scripts\DestoryParticleSystem.js" />
-     <Compile Include="Assets\Scripts\Falling Object.js" />
+     <Compile Include="Assets\Scripts\EnemyShip.js" />
+     <Compile Include="Assets\Scripts\HeroShip.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/devastadus/Documents/UnityProjects/breakout2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/devastadus/Documents/UnityProjects/ShootTheMoon/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
